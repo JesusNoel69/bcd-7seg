@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" style="box-sizing: border-box; width: 100%; min-height: 100%; background: #333;">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BCD→7-Seg Clock Demo</title>
+
+    <script type="module" src="./bcd7seg.mjs"></script>
+  </head>
+  <body style="box-sizing: border-box; height:calc(100vh); margin:0; display: flex; justify-content: center; align-items: center;">
+    <bcd-7seg
+    style="box-sizing: border-box;"
+      value="0"
+      options='{
+        "--width": "12rem",
+
+        "--color-on": "teal"
+      }'
+    ></bcd-7seg>
+
+    <script>
+      const clock = document.querySelector("bcd-7seg");
+      setInterval(() => {
+        let n = Math.floor(Math.random() * 10);
+        n=8;
+        clock.setAttribute("value", n);
+      }, 1000);
+    </script>
+  </body>
+</html>
