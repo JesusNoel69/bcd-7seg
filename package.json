@@ -1,5 +1,5 @@
 {
-    "name": "bcd-7seg",
+    "name": "@jesus69/bcd-7seg",
     "version": "1.0.0",
     "description": "Web Component BCD to 7 Segment Display",
     "main": "bcd7seg.mjs",
