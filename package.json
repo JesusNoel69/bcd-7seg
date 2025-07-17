@@ -1,0 +1,29 @@
+{
+    "name": "bcd-7seg",
+    "version": "1.0.0",
+    "description": "Web Component BCD to 7 Segment Display",
+    "main": "bcd7seg.mjs",
+    "module": "bcd7seg.mjs",
+    "type": "module",
+    "files": [
+      "bcd7seg.mjs",
+      "constants.mjs",
+      "README.md",
+      "LICENSE"
+    ],
+    "keywords": [
+      "web-component",
+      "7segment",
+      "bcd",
+      "custom-element",
+      "display",
+      "javascript"
+    ],
+    "author": "Jesus Noel Zamora Gomez <jnoel883@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JesusNoel69/bcd-7seg.git"
+    }
+  }
+  

@@ -20,8 +20,7 @@
     <script>
       const clock = document.querySelector("bcd-7seg");
       setInterval(() => {
-        let n = Math.floor(Math.random() * 10);
-        n=8;
+        const n = Math.floor(Math.random() * 10);
         clock.setAttribute("value", n);
       }, 1000);
     </script>
